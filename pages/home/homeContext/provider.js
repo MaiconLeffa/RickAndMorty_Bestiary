@@ -39,8 +39,8 @@ export default ({ children }) => {
   }
 
   useEffect(() => { //Verifica se o usuario já tem setado uma pagina e filtros
-    const _page = localStorage.getItem('_currentPage')
-    const _filters = localStorage.getItem('_filters')
+    const _page = sessionStorage.getItem('_currentPage')
+    const _filters = sessionStorage.getItem('_filters')
     setpage(_page ? parseInt(_page) : 1)
     _filters && setfilters(JSON.parse(_filters))
     setdone(true)
