@@ -1,0 +1,1 @@
+export default 'https://rickandmortyapi.com/graphql'

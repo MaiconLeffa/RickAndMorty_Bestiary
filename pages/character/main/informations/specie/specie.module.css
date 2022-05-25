@@ -1,0 +1,10 @@
+.specie__container {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.specie__container p {
+  margin: 0;
+}

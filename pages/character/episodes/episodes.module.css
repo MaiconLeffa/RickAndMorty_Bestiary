@@ -1,0 +1,21 @@
+.episodes {
+  color: #fff;
+  margin: 4em 0;
+  width: 100%;
+}
+
+.episodes__row {
+  border-radius: var(--border-radius);
+  cursor: default;
+  display: flex;
+  padding: 0 1em;
+}
+
+.episodes__row:hover {
+  background-color: var(--primary-color);
+}
+
+.episodes__date {
+  margin-left: auto;
+  text-align: right;
+}

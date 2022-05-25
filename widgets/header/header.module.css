@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  justify-content: center;
+  max-width: var(--page-width);
+  padding: 2em 0;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.main {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  height: unset;
+}
+
+@media(min-width: 768px) {
+  .main {
+    flex-direction: row;
+    height: 600px;
+  }
+}

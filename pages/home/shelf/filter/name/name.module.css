@@ -1,0 +1,6 @@
+.name input {
+  border: solid 1px #bbb;
+  border-radius: var(--border-radius);
+  padding: var(--border-radius);
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.mobileButton {
+  background-color: var(--secundary-color-light);
+  background-image: url(/filter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  border: none;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+  height: 80px;
+  left: -80px;
+  position: fixed;
+  top: 50%;
+  transition: 150ms;
+  width: 80px;
+  z-index: 1;
+}
+
+.mobileButton[opened=true] {
+  left: 0;
+}
+
+@media(min-width: 768px) {
+  .mobileButton {
+    display: none;
+  }
+}

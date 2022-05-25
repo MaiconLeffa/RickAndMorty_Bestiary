@@ -1,0 +1,8 @@
+.clear {
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: var(--border-radius);
+  color: #fff;
+  cursor: pointer;
+  padding: .5em 0;
+}

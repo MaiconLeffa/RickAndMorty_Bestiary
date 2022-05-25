@@ -1,0 +1,12 @@
+.informations {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 2em;
+  border-radius: var(--border-radius);
+}
+
+@media(min-width: 768px) {
+  .informations {
+    width: 40%;
+  }
+}

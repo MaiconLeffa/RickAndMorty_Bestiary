@@ -1,0 +1,21 @@
+.character__back {
+  align-self: flex-start;
+  background-image: url(/arrow-back.svg);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: 10% 50%;
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: var(--border-radius);
+  color: #fff;
+  cursor: pointer;
+  top: 52px;
+  padding: 1em;
+  padding-left: 3em;
+}
+
+@media(min-width: 768px) {
+  .character__back {
+    position: absolute;
+  }
+}

@@ -1,0 +1,15 @@
+.image {
+  border-radius: var(--border-radius);
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+
+@media(min-width: 768px) {
+  .image {
+    height: auto;
+    width: 60%;
+  }
+}

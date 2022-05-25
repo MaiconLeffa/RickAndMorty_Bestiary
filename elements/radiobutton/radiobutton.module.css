@@ -1,0 +1,45 @@
+.radio {
+  cursor: pointer;
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 20px auto;
+  margin: .5em 0;
+}
+
+.radio input {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0.15em solid rgba(0, 0, 0, .2);
+  cursor: pointer;
+  display: grid;
+  margin: 0;
+  height: 20px;
+  transform: translateY(-0.075em);
+  place-content: center;
+  width: 20px;
+}
+
+.radio:hover input::before {
+  transform: scale(1);  
+}
+
+.radio input::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: var(--secundary-color);
+}
+
+.radio input:checked::before {
+  transform: scale(1);
+}
+
+.radio input:checked {
+  transform: scale(1);
+  border-color: var(--secundary-color);
+}

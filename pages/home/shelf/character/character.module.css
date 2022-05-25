@@ -1,0 +1,39 @@
+.character {
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  overflow: hidden;
+  transition: 100ms ease-in;
+}
+
+.character:hover {
+  transform: scale(1.05);
+}
+
+.character__image {
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.character__infos {
+  background-color: var(--primary-color);
+  padding: 1em;
+}
+
+.character__infos p {
+  color: #fff;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.character__species {
+  align-items: center;
+  display: flex;
+  gap: .5em;
+}
+
+.character__name {
+  font-weight: bold;
+}

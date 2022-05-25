@@ -1,0 +1,34 @@
+.footer {
+  align-items: center;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  max-width: var(--page-width);
+  padding: 2rem 0;
+  position: relative;
+  width: 100%;
+  background-color: var(--secundary-color-light);
+}
+
+.footer__totop {
+  background-image: url(/arrow-up.svg);
+  background-color: var(--primary-color);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: 1em;
+  top: -25px;
+  transition: 150ms;
+  width: 50px;
+}
+
+.footer__totop:hover {
+  transform: scale(1.1);
+}
