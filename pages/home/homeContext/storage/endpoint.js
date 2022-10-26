@@ -1,1 +1,1 @@
-export default 'https://rickandmortyapi.com/graphql'
+export const endpoint = 'https://rickandmortyapi.com/graphql'

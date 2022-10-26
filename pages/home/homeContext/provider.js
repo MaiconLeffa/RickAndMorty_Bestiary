@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Context from './context'
-import storage from './storage'
+import { storage } from './storage'
 
 const filtersDefault = { name: '', status: '', species: '' }
 

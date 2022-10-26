@@ -1,4 +1,4 @@
-import endpoint from './endpoint'
+import { endpoint } from './endpoint'
 
 export const Storage = async (id) => {
   const headers = { 'content-type': 'application/json' }

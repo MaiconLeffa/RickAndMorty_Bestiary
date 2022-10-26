@@ -1,7 +1,7 @@
-import endpoint from './endpoint'
-import saveNavigation from './saveNavigation';
+import { endpoint } from './endpoint'
+import { saveNavigation } from './saveNavigation';
 
-export default async (page, filters) => {
+export const storage = async (page, filters) => {
   saveNavigation(page, filters)
   const filtersStr = JSON.stringify(filters).replace(/"([^"]+)":/g, '$1:');
   const headers = { 'content-type': 'application/json' }
