@@ -1,6 +1,6 @@
 import endpoint from './endpoint'
 
-export default async (id) => {
+export const Storage = async (id) => {
   const headers = { 'content-type': 'application/json' }
   const graphqlQuery = {
     'query': `query {character(id: ${id}) {id,name,status,species,type,gender,image,created, origin {id,name,type,dimension,created} location {id,name,type,dimension,created} episode {id,name,air_date,episode,created}}}`

@@ -4,7 +4,7 @@ import Episodes from './episodes'
 import Footer from '../../widgets/footer'
 import Header from '../../widgets/header'
 import Main from './main'
-import storage from './storage'
+import { Storage } from './storage'
 import styles from './character.module.css'
 
 export default ({ character }) =>
@@ -22,6 +22,6 @@ export default ({ character }) =>
 
 
 export async function getServerSideProps(context) {
-  const character = await storage(context.query.id)
+  const character = await Storage(context.query.id)
   return { props: { character } }
 }
