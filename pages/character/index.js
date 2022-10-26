@@ -4,7 +4,7 @@ import Episodes from './episodes'
 import Footer from '../../widgets/footer'
 import Header from '../../widgets/header'
 import Main from './main'
-import { Storage } from './storage'
+import { Storage } from '../../storage/character'
 import styles from './character.module.css'
 
 export default ({ character }) =>
